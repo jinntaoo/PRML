@@ -4,13 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/LR/LogisticRegression.py" line="68" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6a64546-904c-4dbf-a704-e1eae75add1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/KNN/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KNN/kd_tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KNN/knn_naive.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KNN/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e6a64546-904c-4dbf-a704-e1eae75add1f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +38,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KNN/kd_tree.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="191">
@@ -60,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/KNN/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
+            <state relative-caret-position="10">
+              <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
               <folding>
                 <element signature="e#2491#2816#1" />
                 <element signature="e#3099#3127#0" />
@@ -104,9 +98,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="319" />
-    <option name="y" value="-6" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="273" />
+    <option name="y" value="183" />
     <option name="width" value="1611" />
     <option name="height" value="921" />
   </component>
@@ -310,24 +304,23 @@
       <updated>1554257230867</updated>
       <workItem from="1554257232501" duration="66401000" />
       <workItem from="1554468729106" duration="8873000" />
-      <workItem from="1554518374115" duration="3134000" />
+      <workItem from="1554518374115" duration="3390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78408000" />
+    <option name="totallyTimeSpent" value="78664000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="685" y="199" width="1074" height="614" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12045271" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14665355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27353463" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.28419182" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.33195022" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -507,18 +500,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KNN/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="36" column="53" lean-forward="true" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
-          <folding>
-            <element signature="e#2491#2816#1" />
-            <element signature="e#3099#3127#0" />
-            <element signature="e#3205#3438#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/KNN/kd_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
@@ -529,6 +510,18 @@
             <element signature="e#4610#5095#0" />
             <element signature="e#6727#7006#0" />
             <element signature="e#7040#7461#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding>
+            <element signature="e#2491#2816#1" />
+            <element signature="e#3099#3127#0" />
+            <element signature="e#3205#3438#0" />
           </folding>
         </state>
       </provider>
