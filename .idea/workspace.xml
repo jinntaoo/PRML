@@ -4,7 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/LR/LogisticRegression.py" line="68" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6a64546-904c-4dbf-a704-e1eae75add1f" name="Default Changelist" comment="" />
+    <list default="true" id="e6a64546-904c-4dbf-a704-e1eae75add1f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Bayes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bayes/naive_bayes/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bayes/naive_bayes/naive_bayes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bayes/naive_bayes/stop_words.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +20,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PRML$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1554520719053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
+    <SUITE FILE_PATH="coverage/PRML$naive_bayes.coverage" NAME="naive_bayes Coverage Results" MODIFIED="1554628614327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bayes" />
     <SUITE FILE_PATH="coverage/PRML$knn_naive.coverage" NAME="knn_naive Coverage Results" MODIFIED="1554520114295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
     <SUITE FILE_PATH="coverage/PRML$LogisticRegression.coverage" NAME="LogisticRegression Coverage Results" MODIFIED="1554303616856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LR" />
     <SUITE FILE_PATH="coverage/PRML$kd_tree.coverage" NAME="kd_tree Coverage Results" MODIFIED="1554478153096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
@@ -20,7 +28,7 @@
     <SUITE FILE_PATH="coverage/PRML$fashion_loader.coverage" NAME="fashion_loader Coverage Results" MODIFIED="1554267608675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="251" />
+    <option name="myElementSize" value="276" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -41,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KNN/kd_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
+            <state relative-caret-position="107">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
               <folding>
                 <element signature="e#103#525#0" />
                 <element signature="e#546#4574#0" />
@@ -55,15 +63,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/KNN/test.py">
+        <entry file="file://$PROJECT_DIR$/Bayes/naive_bayes/naive_bayes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10">
-              <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+            <state relative-caret-position="196">
+              <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
               <folding>
-                <element signature="e#2491#2816#1" />
-                <element signature="e#3099#3127#0" />
-                <element signature="e#3205#3438#0" />
+                <element signature="n#!!doc" />
+                <element signature="e#222#236#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/ProgramData/Anaconda3/envs/tf/Lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="320" selection-start-line="320" selection-end-line="320" />
             </state>
           </provider>
         </entry>
@@ -95,14 +111,18 @@
         <option value="$PROJECT_DIR$/KNN/knn_naive.py" />
         <option value="$PROJECT_DIR$/KNN/test.py" />
         <option value="$PROJECT_DIR$/KNN/kd_tree.py" />
+        <option value="$PROJECT_DIR$/KNN/naive_bayes.py" />
+        <option value="$PROJECT_DIR$/Bayes/naive_bayes/stop_words.txt" />
+        <option value="$PROJECT_DIR$/Bayes/naive_bayes.py" />
+        <option value="$PROJECT_DIR$/Bayes/naive_bayes/naive_bayes.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="273" />
-    <option name="y" value="183" />
-    <option name="width" value="1611" />
-    <option name="height" value="921" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="133" />
+    <option name="y" value="-21" />
+    <option name="width" value="1764" />
+    <option name="height" value="1106" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -121,17 +141,18 @@
             <path>
               <item name="PRML" type="b2602c69:ProjectViewProjectNode" />
               <item name="PRML" type="462c0819:PsiDirectoryNode" />
+              <item name="Bayes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PRML" type="462c0819:PsiDirectoryNode" />
+              <item name="Bayes" type="462c0819:PsiDirectoryNode" />
+              <item name="naive_bayes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PRML" type="462c0819:PsiDirectoryNode" />
               <item name="KNN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PRML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PRML" type="462c0819:PsiDirectoryNode" />
-              <item name="LR" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PRML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PRML" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -148,14 +169,17 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work_Space\PRML\Bayes\naive_bayes" />
+      <recent name="D:\Work_Space\PRML\LR" />
       <recent name="D:\Work_Space\PRML" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Work_Space\PRML\LR" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work_Space\PRML\Bayes\naive_bayes" />
+      <recent name="D:\Work_Space\PRML\Bayes" />
       <recent name="D:\Work_Space\PRML" />
     </key>
   </component>
@@ -171,29 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test (1)">
-    <configuration name="LogisticRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PRML" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LR" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LR/LogisticRegression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.naive_bayes">
     <configuration name="kd_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PRML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,6 +232,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KNN/knn_naive.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="naive_bayes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PRML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bayes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\Work_Space\PRML\Bayes\naive_bayes\naive_bayes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,11 +308,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.naive_bayes" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.knn_naive" />
         <item itemvalue="Python.kd_tree" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.LogisticRegression" />
       </list>
     </recent_temporary>
   </component>
@@ -304,23 +328,24 @@
       <updated>1554257230867</updated>
       <workItem from="1554257232501" duration="66401000" />
       <workItem from="1554468729106" duration="8873000" />
-      <workItem from="1554518374115" duration="3390000" />
+      <workItem from="1554518374115" duration="26120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78664000" />
+    <option name="totallyTimeSpent" value="101394000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="685" y="199" width="1074" height="614" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14665355" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12045271" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27353463" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.33195022" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3321492" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3623446" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -335,8 +360,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" sideWeight="0.49876544" weight="0.32983023" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.49876544" weight="0.32983023" />
-      <window_info anchor="right" id="Database" order="5" sideWeight="0.49876544" weight="0.32983023" />
-      <window_info anchor="right" id="Coverage" order="6" sideWeight="0.5012346" side_tool="true" weight="0.32983023" />
+      <window_info anchor="right" id="Database" order="5" sideWeight="0.497191" weight="0.32983023" />
+      <window_info anchor="right" id="Coverage" order="6" sideWeight="0.502809" side_tool="true" weight="0.32983023" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,15 +376,25 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/KNN/test.py</url>
-          <line>126</line>
-          <option name="timeStamp" value="59" />
+          <url>file://$PROJECT_DIR$/Bayes/naive_bayes/naive_bayes.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="71" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="os.path.abspath(stop_words_path)" language="Python" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>os.path.abspath(stop_words_path)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>data_mat[:, split].argsort()[::-1]</expression-string>
         <language-id>Python</language-id>
@@ -402,11 +437,6 @@
       </expression>
       <expression>
         <expression-string>np.reshape(samples[rand_index[step]], (-1, 1)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(np.reshape(samples[rand_index[step]], (-1, 1))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -500,10 +530,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/KNN/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding>
+            <element signature="e#2491#2816#1" />
+            <element signature="e#3099#3127#0" />
+            <element signature="e#3205#3438#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bayes/naive_bayes/naive_bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KNN/kd_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="157" lean-forward="true" selection-start-line="157" selection-end-line="157" />
+        <state relative-caret-position="107">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
           <folding>
             <element signature="e#103#525#0" />
             <element signature="e#546#4574#0" />
@@ -514,14 +563,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KNN/test.py">
+    <entry file="file://$PROJECT_DIR$/Bayes/naive_bayes/49960">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        <state relative-caret-position="629">
+          <caret line="300" lean-forward="true" selection-start-line="300" selection-end-line="300" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bayes/naive_bayes/stop_words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="891" lean-forward="true" selection-start-line="891" selection-end-line="891" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/envs/tf/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bayes/naive_bayes/naive_bayes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
           <folding>
-            <element signature="e#2491#2816#1" />
-            <element signature="e#3099#3127#0" />
-            <element signature="e#3205#3438#0" />
+            <element signature="n#!!doc" />
+            <element signature="e#222#236#0" expanded="true" />
           </folding>
         </state>
       </provider>
