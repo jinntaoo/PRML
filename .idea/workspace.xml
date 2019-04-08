@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6a64546-904c-4dbf-a704-e1eae75add1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bayes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bayes/naive_bayes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bayes/naive_bayes/naive_bayes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bayes/naive_bayes/stop_words.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecisionTree/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DecisionTree/trees.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SVM/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,6 +20,7 @@
     <SUITE FILE_PATH="coverage/PRML$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1554520719053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
     <SUITE FILE_PATH="coverage/PRML$naive_bayes.coverage" NAME="naive_bayes Coverage Results" MODIFIED="1554628614327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bayes" />
     <SUITE FILE_PATH="coverage/PRML$knn_naive.coverage" NAME="knn_naive Coverage Results" MODIFIED="1554520114295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
+    <SUITE FILE_PATH="coverage/PRML$trees.coverage" NAME="trees Coverage Results" MODIFIED="1554695552972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DecisionTree" />
     <SUITE FILE_PATH="coverage/PRML$LogisticRegression.coverage" NAME="LogisticRegression Coverage Results" MODIFIED="1554303616856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LR" />
     <SUITE FILE_PATH="coverage/PRML$kd_tree.coverage" NAME="kd_tree Coverage Results" MODIFIED="1554478153096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
     <SUITE FILE_PATH="coverage/PRML$test.coverage" NAME="test Coverage Results" MODIFIED="1554382565487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LR" />
@@ -45,46 +44,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KNN/kd_tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="141" selection-start-line="141" selection-end-line="141" />
-              <folding>
-                <element signature="e#103#525#0" />
-                <element signature="e#546#4574#0" />
-                <element signature="e#4610#5095#0" />
-                <element signature="e#6727#7006#0" />
-                <element signature="e#7040#7461#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bayes/naive_bayes/naive_bayes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
-              <folding>
-                <element signature="n#!!doc" />
-                <element signature="e#222#236#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/ProgramData/Anaconda3/envs/tf/Lib/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="320" selection-start-line="320" selection-end-line="320" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -115,6 +75,7 @@
         <option value="$PROJECT_DIR$/Bayes/naive_bayes/stop_words.txt" />
         <option value="$PROJECT_DIR$/Bayes/naive_bayes.py" />
         <option value="$PROJECT_DIR$/Bayes/naive_bayes/naive_bayes.py" />
+        <option value="$PROJECT_DIR$/DecisionTree/trees.py" />
       </list>
     </option>
   </component>
@@ -141,18 +102,7 @@
             <path>
               <item name="PRML" type="b2602c69:ProjectViewProjectNode" />
               <item name="PRML" type="462c0819:PsiDirectoryNode" />
-              <item name="Bayes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PRML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PRML" type="462c0819:PsiDirectoryNode" />
-              <item name="Bayes" type="462c0819:PsiDirectoryNode" />
-              <item name="naive_bayes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PRML" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PRML" type="462c0819:PsiDirectoryNode" />
-              <item name="KNN" type="462c0819:PsiDirectoryNode" />
+              <item name="SVM" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -195,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.naive_bayes">
+  <component name="RunManager" selected="Python.trees">
     <configuration name="kd_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PRML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -284,7 +234,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="trees" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PRML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -292,12 +242,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LR" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DecisionTree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Work_Space\PRML\LR\LogisticRegression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DecisionTree/trees.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -308,11 +258,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.trees" />
         <item itemvalue="Python.naive_bayes" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.knn_naive" />
         <item itemvalue="Python.kd_tree" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -328,24 +278,23 @@
       <updated>1554257230867</updated>
       <workItem from="1554257232501" duration="66401000" />
       <workItem from="1554468729106" duration="8873000" />
-      <workItem from="1554518374115" duration="26120000" />
+      <workItem from="1554518374115" duration="41277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101394000" />
+    <option name="totallyTimeSpent" value="116551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12045271" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12045271" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3321492" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3623446" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3339254" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3428064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -384,12 +333,17 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="os.path.abspath(stop_words_path)" language="Python" />
+        <watch expression="prob*math.log(prob, 2)" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>prob*math.log(prob, 2)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>os.path.abspath(stop_words_path)</expression-string>
         <language-id>Python</language-id>
@@ -432,11 +386,6 @@
       </expression>
       <expression>
         <expression-string>np.reshape(samples[rand_index[step]], (-1, 1))</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>np.reshape(samples[rand_index[step]], (-1, 1)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -577,21 +526,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/ProgramData/Anaconda3/envs/tf/Lib/codecs.py">
+    <entry file="file://$PROJECT_DIR$/DecisionTree/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DecisionTree/trees.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        <state relative-caret-position="222">
+          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
+          <folding>
+            <element signature="e#73#84#0" expanded="true" />
+            <element signature="e#366#822#0" />
+            <element signature="e#884#972#1" />
+            <element signature="e#3784#3821#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bayes/naive_bayes/naive_bayes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+        <state relative-caret-position="154">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
           <folding>
             <element signature="n#!!doc" />
             <element signature="e#222#236#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/ProgramData/Anaconda3/envs/tf/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="323" column="21" lean-forward="true" selection-start-line="323" selection-start-column="21" selection-end-line="323" selection-end-column="21" />
         </state>
       </provider>
     </entry>
