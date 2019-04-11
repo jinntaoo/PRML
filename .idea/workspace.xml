@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6a64546-904c-4dbf-a704-e1eae75add1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DecisionTree/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DecisionTree/trees.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SVM/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kMeans/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kMeans/kmeans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kMeans/test_data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +20,12 @@
     <SUITE FILE_PATH="coverage/PRML$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1554520719053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
     <SUITE FILE_PATH="coverage/PRML$naive_bayes.coverage" NAME="naive_bayes Coverage Results" MODIFIED="1554628614327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bayes" />
     <SUITE FILE_PATH="coverage/PRML$knn_naive.coverage" NAME="knn_naive Coverage Results" MODIFIED="1554520114295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
-    <SUITE FILE_PATH="coverage/PRML$trees.coverage" NAME="trees Coverage Results" MODIFIED="1554695552972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DecisionTree" />
+    <SUITE FILE_PATH="coverage/PRML$trees.coverage" NAME="trees Coverage Results" MODIFIED="1554955827759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DecisionTree" />
     <SUITE FILE_PATH="coverage/PRML$LogisticRegression.coverage" NAME="LogisticRegression Coverage Results" MODIFIED="1554303616856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LR" />
     <SUITE FILE_PATH="coverage/PRML$kd_tree.coverage" NAME="kd_tree Coverage Results" MODIFIED="1554478153096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KNN" />
     <SUITE FILE_PATH="coverage/PRML$test.coverage" NAME="test Coverage Results" MODIFIED="1554382565487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LR" />
     <SUITE FILE_PATH="coverage/PRML$fashion_loader.coverage" NAME="fashion_loader Coverage Results" MODIFIED="1554267608675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/PRML$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1554967462614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kMeans" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="276" />
@@ -44,7 +45,24 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/kMeans/kmeans.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="112" column="33" selection-start-line="112" selection-start-column="33" selection-end-line="112" selection-end-column="33" />
+              <folding>
+                <element signature="e#81#92#0" expanded="true" />
+                <element signature="e#509#621#1" />
+                <element signature="e#1251#1318#1" />
+                <element signature="e#1620#1817#1" />
+                <element signature="e#2469#2892#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,6 +74,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>255</find>
+      <find>sorted</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -76,14 +95,16 @@
         <option value="$PROJECT_DIR$/Bayes/naive_bayes.py" />
         <option value="$PROJECT_DIR$/Bayes/naive_bayes/naive_bayes.py" />
         <option value="$PROJECT_DIR$/DecisionTree/trees.py" />
+        <option value="$PROJECT_DIR$/kMeans/test_data.txt" />
+        <option value="$PROJECT_DIR$/kMeans/kmeans.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="133" />
-    <option name="y" value="-21" />
+    <option name="x" value="28" />
+    <option name="y" value="27" />
     <option name="width" value="1764" />
-    <option name="height" value="1106" />
+    <option name="height" value="1004" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -91,7 +112,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,12 +122,18 @@
             <path>
               <item name="PRML" type="b2602c69:ProjectViewProjectNode" />
               <item name="PRML" type="462c0819:PsiDirectoryNode" />
-              <item name="SVM" type="462c0819:PsiDirectoryNode" />
+              <item name="DecisionTree" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PRML" type="462c0819:PsiDirectoryNode" />
+              <item name="kMeans" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -117,8 +143,10 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../detection/keras-yolo3-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
@@ -145,8 +173,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.trees">
-    <configuration name="kd_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.kmeans">
+    <configuration name="kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PRML" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -154,12 +182,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/KNN" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kMeans" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KNN/kd_tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kMeans/kmeans.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -258,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.kmeans" />
         <item itemvalue="Python.trees" />
         <item itemvalue="Python.naive_bayes" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.knn_naive" />
-        <item itemvalue="Python.kd_tree" />
       </list>
     </recent_temporary>
   </component>
@@ -278,23 +306,25 @@
       <updated>1554257230867</updated>
       <workItem from="1554257232501" duration="66401000" />
       <workItem from="1554468729106" duration="8873000" />
-      <workItem from="1554518374115" duration="41277000" />
+      <workItem from="1554518374115" duration="41896000" />
+      <workItem from="1554945472022" duration="20980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116551000" />
+    <option name="totallyTimeSpent" value="138150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12045271" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.03880356" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3339254" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3428064" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.06749556" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3268206" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -329,63 +359,58 @@
           <line>77</line>
           <option name="timeStamp" value="71" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/kMeans/kmeans.py</url>
+          <line>121</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="prob*math.log(prob, 2)" language="Python" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
       <expression>
-        <expression-string>prob*math.log(prob, 2)</expression-string>
+        <expression-string>list(map(sum, zip(*points)))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>os.path.abspath(stop_words_path)</expression-string>
+        <expression-string>list(ans)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data_mat[:, split].argsort()[::-1]</expression-string>
+        <expression-string>list(dic1[k])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data_mat[:, split].argsort()</expression-string>
+        <expression-string>list(dic1[k]) != list(dic2[k])</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>np.std(data_mat, axis=0, keepdims=False)</expression-string>
+        <expression-string>dic1[0]==dic2[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>reduce(lambda x, y: (x - mean) ** 2 + (y - mean) ** 2, data_list)</expression-string>
+        <expression-string>dic1[0]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>samples[rand_index[step]]</expression-string>
+        <expression-string>old_clu_dict.values()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>labels[selected_index[step]]</expression-string>
+        <expression-string>centers[dist.index(min(dist))]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>labels[selected_index[step]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>np.reshape(samples[rand_index[step]], (-1, 1))</expression-string>
+        <expression-string>clu_dict[centers[dist.index(min(dist))]]</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -396,13 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="2814" column="8" selection-start-line="2814" selection-start-column="8" selection-end-line="2814" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -479,25 +497,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KNN/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10">
-          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-          <folding>
-            <element signature="e#2491#2816#1" />
-            <element signature="e#3099#3127#0" />
-            <element signature="e#3205#3438#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bayes/naive_bayes/naive_bayes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/KNN/test.py" />
     <entry file="file://$PROJECT_DIR$/KNN/kd_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -512,13 +512,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bayes/naive_bayes/49960">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="300" lean-forward="true" selection-start-line="300" selection-end-line="300" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Bayes/naive_bayes/49960" />
     <entry file="file://$PROJECT_DIR$/Bayes/naive_bayes/stop_words.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -528,19 +522,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DecisionTree/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DecisionTree/trees.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
-          <folding>
-            <element signature="e#73#84#0" expanded="true" />
-            <element signature="e#366#822#0" />
-            <element signature="e#884#972#1" />
-            <element signature="e#3784#3821#0" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Bayes/naive_bayes/naive_bayes.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -557,6 +538,44 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="323" column="21" lean-forward="true" selection-start-line="323" selection-start-column="21" selection-end-line="323" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kMeans/test_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1659">
+          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DecisionTree/trees.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="76" column="27" lean-forward="true" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+          <folding>
+            <element signature="e#73#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kMeans/kmeans.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="112" column="33" selection-start-line="112" selection-start-column="33" selection-end-line="112" selection-end-column="33" />
+          <folding>
+            <element signature="e#81#92#0" expanded="true" />
+            <element signature="e#509#621#1" />
+            <element signature="e#1251#1318#1" />
+            <element signature="e#1620#1817#1" />
+            <element signature="e#2469#2892#0" />
+          </folding>
         </state>
       </provider>
     </entry>
